@@ -4,21 +4,130 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ติดต่อ</title>
-    <meta name="description" content="Have it your way />
+    <meta name="description" content="Have it your way" />
     <link rel="icon" type="image/png" href="images/Burger_King_logo_(1999–2020).svg.png" />
   </head>
   <body>
     <header id="contact">
       <h1>ติดต่อเรา</h1>
       <img src="images/contact.png" alt="contact" width="15%" />
-      <p><strong>บริษัท ปตท. น้ำมันและการค้าปลีก จำกัด (มหาชน)</strong></p>
+      <p><strong>Burger King Company LLC</strong></p>
       <p>
-        ธุรกิจคาเฟ่อเมซอน 555/2 ศูนย์เอนเนอร์ยี่คอมเพล็กซ์ อาคารบี ชั้นที่ 12
+        อาคารเดอะปาร์ค ชั้น 11 ถนนรัชดาภิเษก
       </p>
-      <p>ถนนวิภาวดีรังสิต แขวงจตุจักร เขตจตุจักร กรุงเทพฯ 10900</p>
-      <p>เลขประจำตัวผู้เสียภาษี : 0107561000013</p>
-      <p><strong>แนะนำสินค้าและบริการ</strong></p>
-      <p>Contact Center</p>
-      <p><strong>1365</strong></p>
+      <p><strong>Contact Center</strong></p>
+      <p>1112</p>
       <br />
     </header>
+
+    <main>
+      <!-- Contact form -->
+      <form action="/contact-us" method="POST" style="width: max-content">
+        <fieldset>
+          <legend><h2>Contact Form</h2></legend>
+          <label for="fname-lname"><strong>ชื่อ - นามสกุล :</strong></label>
+          <br />
+          <input
+            type="text"
+            name="fname-lname"
+            id="fname-lname"
+            placeholder="กรอกชื่อ - นามสกุล"
+            required
+            style="width: 90%"
+          />
+          <br />
+          <br />
+          <fieldset style="width: 85%">
+            <legend>เพศ :</legend>
+            <label for="gender"></label>
+            <input type="radio" name="gender" id="male" />ชาย
+            <input type="radio" name="gender" id="female" />หญิง
+            <input type="radio" name="gender" id="other" />อื่นๆ
+          </fieldset>
+          <br />
+          <label for="email"><strong>อีเมล :</strong></label>
+          <br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="กรอกอีเมล"
+            required
+            style="width: 90%"
+          />
+          <br />
+          <br />
+          <label for="tel"><strong>โทรศัพท์ :</strong></label>
+          <br />
+          <input
+            type="tel"
+            name="tel"
+            id="tel"
+            placeholder="กรอกเบอร์ติดต่อ"
+            style="width: 90%"
+          />
+          <br />
+          <br />
+          <label for="topic"><strong>หัวข้อ :</strong></label>
+          <br />
+          <select style="width: 90%" required>
+            <option value="contact">-- เลือกหัวข้อติดต่อ --</option>
+            <option value="suggestions">รายงานปัญหา</option>
+            <option value="inquire">สอบถามข้อมูล</option>
+            <option value="inquire">เสนอความคิดเห็น</option>
+          </select>
+          <br />
+          <br />
+          <legend for="text-us"><strong>ข้อความ :</strong></legend>
+          <textarea name="text-us" id="text-us" rows="7" cols="90"></textarea>
+          <br />
+          <input
+            type="checkbox"
+            name="accepted"
+            id="accepted"
+            required
+          />ยอมรับและอนุญาตให้ใช้ข้อมูลส่วนบุคคลในการติดต่อกลับ
+        </fieldset>
+        <input type="submit" value="ส่งข้อมูล" />
+        <input type="reset" value="ยกเลิก" />
+      </form>
+
+      <!-- Company address -->
+      <section id="company-address">
+        <h2>Burger King - The Street Ratchada</h2>
+        <nav>
+          <a href="https://maps.app.goo.gl/Evyeeqi88kU1zTzi7" target="_blank"
+            >ค้นหาสาขา</a
+          >
+          <br />
+
+          <!-- Google Maps -->
+          <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.147868095006!2d100.56956044025746!3d13.769954986679426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29e85e4a6063b%3A0x26d2ac5f15d4c998!2sBurger%20King%20-%20The%20Street%20Ratchada!5e0!3m2!1sen!2sth!4v1765215257812!5m2!1sen!2sth" 
+          width="600" 
+          height="450" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </nav>
+        <p><strong>ที่อยู่ : </strong>139 ถนนรัชดาภิเษก แขวงดินแดง เขตดินแดง กรุงเทพมหานคร 10400</p>
+        <p><strong>เบอร์โทร : </strong>063-226-7875</p>
+        <p><strong>อีเมล : </strong>public.whopper@burgerking.co.th</p>
+      </section>
+    </main>
+
+    <footer>
+      <ul>
+        <li><a href="/index.html">หน้าแรก</a></li>
+        <li><a href="/about.html">เกี่ยวกับ</a></li>
+        <li><a href="/services.html">บริการ</a></li>
+        <li><a href="/contact.html">ติดต่อ</a></li>
+      </ul>
+      <p>
+        &copy; 2025 Burger King Company LLC. All Rights Reserved
+      </p>
+    </footer>
+  </body>
+</html>
