@@ -14,7 +14,7 @@
 ## All screenshots and links to each page
 1. [คลิกเพื่อดูหน้าหลัก /index.html](/index.html)
 
-[![คลิกเพื่อดูหน้าหลัก](images/index screenshot.png)](/index.html)
+[(images/index screenshot.png)](/index.html)
 
 2. [คลิกเพื่อดูเกี่ยวกับ /about.html](/about.html)
 
