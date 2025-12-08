@@ -12,14 +12,18 @@
 - **images/** - โฟลเดอร์สำหรับจัดเก็บไฟล์รูปภาพที่ใช้ในหน้าเว็บไซต์
 - **README.md** - เอกสารสำหรับอธิบายโครงการ
 ## Screenshots and Links
-1.  [หน้าหลัก /index.html](index.html)
-    [![ภาพหน้าจอหลัก](images/index-screenshot.png)](index.html)
+1.  [หน้าหลัก /index.html](/index.html)
 
-2.  [เกี่ยวกับ /about.html](about.html)
-    [![ภาพหน้าจอเกี่ยวกับ](images/about-screenshot.png)](about.html)
+    [![ภาพหน้าจอหลัก](images/index-screenshot.png)](/index.html)
 
-3.  [บริการ /services.html](services.html)
-    [![ภาพหน้าจอบริการ](images/services-screenshot.png)](services.html)
+2.  [เกี่ยวกับ /about.html](/about.html)
 
-4.  [ติดต่อ /contact.html](contact.html)
-    [![ภาพหน้าจอติดต่อ](images/contact-screenshot.png)](contact.html)
+    [![ภาพหน้าจอเกี่ยวกับ](images/about-screenshot.png)](/about.html)
+
+3.  [บริการ /services.html](/services.html)
+
+    [![ภาพหน้าจอบริการ](images/services-screenshot.png)](/services.html)
+
+4.  [ติดต่อ /contact.html](/contact.html)
+
+    [![ภาพหน้าจอติดต่อ](images/contact-screenshot.png)](/contact.html)
