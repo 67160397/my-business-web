@@ -9,6 +9,7 @@
 }
 
 body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #fdfaf5;
     color: #502314;
     line-height: 1.6;
@@ -28,12 +29,57 @@ a {
 /* ========================
  TYPOGRAPHY
  ======================== */
+
+h1 {
+    font-size: 4rem;
+    color: #df3939;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #d32623;
+    margin-bottom: 1.2rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+    color: #502314;
+    margin-bottom: 0.8rem;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #502314;
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #d32623;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #f38a00;
+    text-decoration: underline;
+}
+
 /* ========================
  LAYOUT & CONTAINERS
  ======================== */
+
+
+
 /* ========================
  COMPONENTS (HEADER, NAV, CARD, etc.)
  ======================== */
+
+
+
 /* ========================
  RESPONSIVE / MEDIA QUERIES
  ======================== */ 
