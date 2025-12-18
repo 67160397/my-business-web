@@ -1,0 +1,39 @@
+/* ========================
+ RESET & DEFAULTS
+ ======================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fdfaf5;
+    color: #502314;
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ========================
+ TYPOGRAPHY
+ ======================== */
+/* ========================
+ LAYOUT & CONTAINERS
+ ======================== */
+/* ========================
+ COMPONENTS (HEADER, NAV, CARD, etc.)
+ ======================== */
+/* ========================
+ RESPONSIVE / MEDIA QUERIES
+ ======================== */ 
