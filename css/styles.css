@@ -130,6 +130,31 @@ nav a:hover {
     font-weight: bold;
 }
 
+/* Card */
+
+.card {
+    background-color: #fff;
+    padding: 20px;                     /* content padding */
+    margin: 10px 0;                    /* margin ระหว่าง cards */
+    border: 1px solid #ddd;            /* border */
+    border-radius: 8px;                /* border-radius */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* box-shadow */
+    
+    /* เพิ่มเติมเพื่อให้รูปและข้อความจัดวางกึ่งกลาง */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* ปรับขนาดรูปใน Card เพื่อไม่ให้เบียดตัวหนังสือ */
+.card img {
+    max-width: 100%;
+    height: 150px;                     /* กำหนดความสูงคงที่เพื่อให้ภาพเรียงตรงกัน */
+    object-fit: contain;               /* ป้องกันภาพยืด */
+    margin-bottom: 15px;
+}
+
 /* Hero Section */
 #hero-section {
     text-align: center;
