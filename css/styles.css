@@ -86,6 +86,7 @@ a:hover {
 }
 
 .section {
+    display: grid;
     margin: 3rem 0;
     padding: 2rem;
 }
@@ -93,6 +94,16 @@ a:hover {
 /* ========================
  COMPONENTS (HEADER, NAV, CARD, etc.)
  ======================== */
+
+/* Header */
+header {
+    position: sticky;
+    top: 0;
+    background: #fdfaf5;
+    z-index: 1000;
+    padding: 1rem 0;
+    border-bottom: 1px solid #eee;
+}
 
 /* Navigation */
 nav ul {
@@ -156,7 +167,7 @@ input[type="email"],
 input[type="tel"], 
 select, 
 textarea {
-    width: 100% !important; /* บังคับใช้ความกว้างเต็มตามที่คุณตั้งใจ */
+    width: 100% !important; /* บังคับใช้ความกว้าง */
     padding: 10px;
     margin: 8px 0;
     border: 1px solid #ccc;
@@ -184,3 +195,25 @@ th {
 /* ========================
  RESPONSIVE / MEDIA QUERIES
  ======================== */ 
+
+ @media (max-width: 768px) {
+    section {
+        grid-template-columns: 1fr;
+    }
+    
+    figure {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+/* ========================
+   FOOTER
+   ======================== */
+footer {
+  background-color: #fff1a9;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
