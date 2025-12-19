@@ -1,10 +1,10 @@
-# Create Burger King website
-## Project description
+# Create Burger King Website
+## Project Description
 - นี่เป็นการจำลองหน้าเว็บไซต์ Burger King 
 สร้างขึ้นเพื่อเรียนรู้เกี่ยวกับวิธีสร้างและการตกแต่งหน้าเว็บไซต์ 
 โดยไม่ใช้ JavaScript ในการเขียน
 เพื่อเป็นการศึกษาเกี่ยวกับ HTML และ CSS เบื้องต้น
-## File structure
+## File Structure
 ```
 my-business-web/
 ├── index.html
