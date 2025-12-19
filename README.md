@@ -5,6 +5,7 @@
 โดยไม่ใช้ JavaScript ในการเขียน
 เพื่อเป็นการศึกษาเกี่ยวกับ HTML และ CSS เบื้องต้น
 ## File structure
+```
 my-business-web/
 ├── index.html
 ├── about.html
@@ -16,8 +17,9 @@ my-business-web/
 │   └── ...
 └── README.md
 
-## CSS Implementation Checklist
+```
 
+## CSS Implementation Checklist
 - [x] Universal Selector & Reset
 - [x] Element Selectors (h1-h4, p, a, etc.)
 - [x] Class Selectors (.hero, .card, .btn, etc.)
