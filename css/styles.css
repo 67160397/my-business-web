@@ -1,4 +1,10 @@
 /* ========================
+ IMPORT FONT
+ ======================== */
+
+ @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Lilita+One&display=swap');
+
+/* ========================
  RESET & DEFAULTS
  ======================== */
 
@@ -9,8 +15,8 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fdfaf5;
+    font-family: 'Kanit', sans-serif;
+    background-color: #F5EBDC;
     color: #502314;
     line-height: 1.6;
 }
@@ -72,13 +78,108 @@ a:hover {
  LAYOUT & CONTAINERS
  ======================== */
 
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
 
+.section {
+    margin: 3rem 0;
+    padding: 2rem;
+}
 
 /* ========================
  COMPONENTS (HEADER, NAV, CARD, etc.)
  ======================== */
 
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px 0;
+}
 
+nav a:hover {
+    color: #ed7824;
+    font-weight: bold;
+}
+
+/* Hero Section */
+#hero-section {
+    text-align: center;
+    background-color: #ed7824;
+    color: white;
+    padding: 60px 20px;
+}
+
+/* Menu Items (Services Page) */
+#burgers, #drinks, #snacks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* แบ่งเป็น 3 คอลัมน์ */
+    gap: 30px;
+    text-align: center;
+}
+
+figure {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Team Section (About Page) */
+#team {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#team figure {
+    width: 30%; /* ปรับขนาดรูปทีมแทน width="40%" ใน HTML */
+}
+
+/* Form (Contact Page) */
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="tel"], 
+select, 
+textarea {
+    width: 100% !important; /* บังคับใช้ความกว้างเต็มตามที่คุณตั้งใจ */
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #502314;
+    color: white;
+}
 
 /* ========================
  RESPONSIVE / MEDIA QUERIES
