@@ -23,8 +23,9 @@ body {
 
 img {
     display: block;
-    max-width: 100%;
-    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
 
 a {
@@ -82,7 +83,7 @@ a:hover {
  LAYOUT & CONTAINERS
  ======================== */
 
-container {
+.container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
@@ -202,6 +203,60 @@ th {
     color: white;
 }
 
+/* FOOTER */
+footer {
+  background-color: #fff1a9;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+/* ========================
+   FIXED ELEMENTS
+   ======================== */
+
+/* Back to Top button */
+#back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #d32623;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 999;
+    transition: 0.3s;
+}
+
+#back-to-top:hover {
+    background-color: #502314;
+    transform: translateY(-5px);
+}
+
+/* Chat widget */
+.chat-widget {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    background-color: #ed7824;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px 0 0 10px;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    box-shadow: -2px 0 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.chat-widget:hover {
+    padding-right: 30px;
+}
+
+
 /* ========================
  RESPONSIVE / MEDIA QUERIES
  ======================== */ 
@@ -216,14 +271,5 @@ th {
         flex-direction: column;
         text-align: center;
     }
-}
-/* ========================
-   FOOTER
-   ======================== */
-footer {
-  background-color: #fff1a9;
-  padding: 2rem;
-  text-align: center;
-  margin-top: 3rem;
 }
 
